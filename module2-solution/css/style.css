@@ -66,11 +66,11 @@ h1.firstheading {
 	}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px ) {
+@media only screen and (min-width: 768px) {
 
 	.col-md-6 {
 		float: left;
-		width: calc(50%);
+		width: 50%;
 	}
 	.col-md-12 {
 		float: left;
@@ -82,7 +82,7 @@ h1.firstheading {
 
 	.col-lg-4 {
 		float: left;
-		width: calc(33.33%);
+		width: 33.33%;
 	}
 
 }
