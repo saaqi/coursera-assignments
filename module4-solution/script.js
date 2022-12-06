@@ -6,23 +6,27 @@ function greetUsers() {
     "Danielle Presley", 
     "Johnny Depp", 
     "Marshall Gregory", 
-    "Trina Perry", "Malcolm Potter", 
     "John Doe", 
+    "Trina Perry", "Malcolm Potter", 
     "Larry David", 
-    "Leonardo DiCaprio", 
     "Jack Nicholson", 
+    "Leonardo DiCaprio", 
     "Tom Cruise", 
     "Jim Nortan"
     ];
 
-  for (var names of userNames ) {
+  function consoleGreeting() {
 
-    if ( names[0] === 'j' || names[0] === 'J') {
-      console.log( `Goodbye ${names}` );
-    } else {
-      console.log( `Hello ${names}` );
+    for ( var i of userNames ) {
+
+      if ( i[0] === 'j' || i[0] === 'J') {
+        console.log( `Goodbye ${i}` );
+      } else {
+        console.log( `Hello ${i}` );
+      }
     }
-  }
+  }; consoleGreeting();
+
 
 };
 
